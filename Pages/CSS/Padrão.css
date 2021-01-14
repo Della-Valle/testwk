@@ -1,0 +1,102 @@
+*{margin: 0; padding: 0;}
+
+header{
+display: block;
+position: fixed;
+top: 0px;
+left: 0px;
+right: 0px;
+}
+
+#topo{
+    background-color: rgb(6, 33, 53);;
+    font-family: arial, helvetica, sans-serif;
+    font-size: 16px;
+    color: rgb(255, 255, 255);  
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+#redesSociais{
+    float: right;
+    padding-right: 20px;
+}
+
+#redesSociais a:hover{
+    background: rgb(255, 0, 0);
+    padding:15px 3px 3px 5px;
+    
+    }
+#facebook{
+    padding-right: 10px;
+}
+#instagram{
+    padding-right: 10px;
+}
+#youtube{
+    padding-right: 10px;
+}
+#whatsapp{
+    padding-right: 10px;
+}
+
+#logowk{
+    line-height: 100px;
+    position: absolute;
+    text-align: center;
+    left: 70px;
+    top: 10px;
+    z-index: 0;
+}
+
+#menu{
+    padding: 10px 200px 10px;
+    font-family: arial, helvetica, sans-serif;
+    font-size: 12px;
+    color: white;
+    background-color: rgb(10, 49, 77);
+    font-weight: bold;
+    list-style: none;
+    display: flex;
+}
+
+#menu li a{color:rgb(255, 255, 255); text-decoration:none; padding:25px 10px; display:block;}
+
+#menu li a:hover{
+    background:rgb(255, 255, 255);
+    color:rgb(10, 49, 77);
+}
+
+#menu li ul{
+    position:absolute;
+    background-color:rgb(10, 49, 77);
+    display:none;
+    }
+
+#menu li:hover ul, .menu li.over ul{display:block;}
+
+footer{
+    background-color: rgb(6, 33, 53);;
+    font-family: arial, helvetica, sans-serif;
+    font-size: 14px;
+    color: rgb(255, 255, 255);  
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    border-top: 1px solid rgb(255, 255, 255);
+    bottom: 0;
+    left: 0;
+    position: relative;
+    width: 100%;
+    float: right;
+}
+
+#corpo{
+    margin-top: 120px; /* Essa margem vai evitar que o conteudo fique por baixo do cabeçalho */
+     }
+
+.pfooter{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}

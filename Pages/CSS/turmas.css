@@ -1,0 +1,57 @@
+body{
+    font-family: arial, helvetica, sans-serif;
+}
+
+#obs{
+    background-image: linear-gradient(to right, grey,rgb(187, 181, 181), grey);
+    padding: 10px 10px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+#titulo{
+    text-align: center;
+    padding-top: 15px;
+    color: rgb(54, 54, 54);
+}
+
+.texto{
+    padding-left: 10px;
+}
+
+.idade{ 
+    font-size: 22px;
+    color: rgb(255, 101, 12);
+}
+
+#turmas{
+padding-top: 20px;
+}
+
+#turma01{
+    float: left;
+}
+
+#turma02{
+    float: left;
+}
+
+#turma03{
+    float: left;
+}
+
+#turma04{
+    float: left;
+}
+
+#turma05{
+    float: left;
+}
+
+#img01{
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+}
